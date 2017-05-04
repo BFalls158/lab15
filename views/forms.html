@@ -1,0 +1,19 @@
+<h4>Fill out the form below to get MAD!</h4>
+
+<form ng-controller="formController" ng-submit="assignWords(n1, n2, a1, a2, v1, v2, v3)">
+	<input type="text" ng-model="n1" placeholder="Name" required>
+	<br>
+	<input type="text" ng-model="n2" placeholder="Animal" required>
+	<br>
+	<input type="text" ng-model="a1" placeholder="Adjective" required>
+	<br>
+	<input type="text" ng-model="a2" placeholder="Another Adjective" required>
+	<br>
+	<input type="text" ng-model="v1" placeholder="Present Tense Verb" required>
+	<br>
+	<input type="text" ng-model="v2" placeholder="Past Tense Verb" required>
+	<br>
+	<input type="text" ng-model="v3" placeholder="Weather Condition" required>
+	<br>
+	<button type="submit">Get Mad!</button>
+</form>

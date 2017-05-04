@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Ravi+Prakash');
+
+* {
+	font-family: 'Merriweather', serif;
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+
+p {
+	font-family: 'Ravi Prakash', cursive;
+	font-size: 24px;
+}
+
+input {
+	margin: 3px;
+	background-color: white;
+	color: black;
+}
+
+button {
+	background-color: red;
+}
